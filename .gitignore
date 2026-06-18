@@ -33,3 +33,10 @@ __pycache__/
 
 # OS files
 .DS_Store
+
+# local_tpp branch
+./PXD007160
+./data/**
+data/batch1/search/comet.params.new
+data/batch1/search/libra_condition.xml
+data/batch1/search/quantitation.tsv
