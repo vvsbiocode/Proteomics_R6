@@ -141,11 +141,12 @@ cat <<EOF > $COND_LIBRA
   </fragmentMasses>
   <massTolerance value="0.001"/>
   <centroiding type="2" iterations="1"/>
-  <normalization type="1"/>
-  <targetMs level="2"/>
+  <normalization type="5"/>
+  <targetMs level="3"/>
+  <reporterFromMS3 value="1"/>
   <output type="1"/>
   <quantitationFile name="quantitation.tsv"/>
-  <minimumThreshhold value="20"/>
+  <minimumThreshhold value="0"/>
 </SUMmOnCondition>
 EOF
 
